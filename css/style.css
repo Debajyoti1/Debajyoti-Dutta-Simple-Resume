@@ -105,10 +105,11 @@ nav{
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 50px;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 #my-intro p{
 	font-family: cursive;
+	color: #6b6b6b;
 }
 
 section{
@@ -181,10 +182,44 @@ section h1 span img {
 	width: 90%;
 	height: inherit;
 }
-.mb-blue{
+
+.eighty-percent{
+	width: 80%;
+	height: inherit;
+}
+.seventy-percent{
+	width: 80%;
+	height: inherit;
+}
+.sixty-percent{
+	width: 60%;
+	height: inherit;
+}
+.fifty-percent{
+	width: 50%;
+	height: inherit;
+}
+.bg-blue{
 	background-color: blue;
 }
-
+.bg-red{
+	background-color: red;
+}
+.bg-gray{
+	background-color: gray;
+}
+.bg-yellow{
+	background-color: #e3e302;
+}
+.bg-green{
+	background-color: #08c108;
+}
+.bg-aqua{
+	background-color: #00bebe;
+}
+.bg-brown{
+	background-color: brown;
+}
 #exp-logo{
 	margin-bottom: -18px;
 }
@@ -268,7 +303,7 @@ section h1 span img {
 .work-info{
 	color: grey;
 	margin-top: 10px;
-	color: #a19d9d;
+	color: #717171;
 }
 #education{
 		background-color: #d3cece40;
