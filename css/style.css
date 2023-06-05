@@ -108,7 +108,7 @@ nav{
 	font-size: 1.3rem;
 }
 #my-intro p{
-	font-family: cursive;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #6b6b6b;
 }
 
@@ -266,7 +266,7 @@ section h1 span img {
 	position: absolute;
 	height: 75%;
 	width: 0;
-	border: 3px dashed #a19d9d85;
+	border: 3px dashed #c3c0c085;
 	left: 50%;
 }
 
