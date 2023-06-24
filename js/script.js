@@ -35,7 +35,7 @@ let sendMsg = () => {
         email: document.getElementById('formemail').value,
         message : document.getElementById('msg').value
     };
-    console.log(data);
+    // console.log(data);
     let url='http://debajyoti.tk:8130/submit'
     fetch(url, {
         method: 'POST',
