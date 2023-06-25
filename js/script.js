@@ -36,7 +36,7 @@ let sendMsg = () => {
         message : document.getElementById('msg').value
     };
     // console.log(data);
-    let url='http://debajyoti.tk:8130/submit'
+    let url='https://cv.debajyoti.cf/submit'
     fetch(url, {
         method: 'POST',
         headers: {
