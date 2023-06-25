@@ -46,6 +46,9 @@ let sendMsg = () => {
     })
     .then(response => {
         if (response.ok) {
+            document.getElementById('formname').value=''
+            document.getElementById('formemail').value=''
+            document.getElementById('msg').value=''
             return showAlert();
         }
         throw new Error('Error: ' + response.status);
