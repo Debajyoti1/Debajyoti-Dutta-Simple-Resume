@@ -562,14 +562,14 @@ section h1 span img {
 	background-color: #00bebe;
 }
 
-@media all and (max-width: 768px) {
-	.alert {
+@media all and (max-width: 668px) {
+	#alert-box {
 		height: 41vh;
-		width: 36vw;
+		width: 55vw;
 	}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
 	#body-header {
 		max-height: 475px;
 	}
@@ -661,8 +661,8 @@ section h1 span img {
 		right: 109.7%;
 	}
 
-	.alert {
-		height: 41vh;
-		width: 53vw;
+	#alert-box {
+		height: 41%;
+		width: 60%;
 	}
 }
