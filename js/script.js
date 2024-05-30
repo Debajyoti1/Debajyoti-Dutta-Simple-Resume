@@ -36,7 +36,7 @@ let sendMsg = () => {
         message : document.getElementById('msg').value
     };
     // console.log(data);
-    let url='https://s.debajyotidutta.com:8131/submit'
+    let url='https://ddrc.debajyotidutta.com/submit'
     fetch(url, {
         method: 'POST',
         headers: {
