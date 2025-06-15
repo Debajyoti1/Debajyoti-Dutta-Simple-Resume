@@ -23,6 +23,55 @@
 	background-color: gray;
 }
 
+.hamburger {
+	display: none;
+	font-size: 30px;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	cursor: pointer;
+	z-index: 1001;
+	color: #fff;
+}
+
+/* Mobile menu */
+.mobile-menu {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: -300px;
+	width: 250px;
+	height: 100%;
+	background-color: #222;
+	padding: 20px;
+	transition: right 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+.mobile-menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+.mobile-menu ul li {
+	margin: 15px 0;
+}
+
+.mobile-menu ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.mobile-menu .close {
+	font-size: 28px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+
 nav {
 	padding: 25px;
 }
@@ -571,7 +620,7 @@ section h1 span img {
 
 @media all and (max-width: 550px) {
 	#body-header {
-		max-height: 475px;
+		max-height: 365px;
 	}
 
 	.horizontal-list li a {
@@ -600,13 +649,14 @@ section h1 span img {
 	}
 
 	.skills-display {
-		width: 45%;
+		width: 60%;
 
 	}
 
 	.skill-progress {
 		margin-left: auto;
 		margin-right: auto;
+		width: 8rem;
 	}
 
 	.section-heading span {
@@ -664,5 +714,27 @@ section h1 span img {
 	#alert-box {
 		height: 41%;
 		width: 60%;
+	}
+	#contact-desc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#msg-box{
+		width: 100%;
+	}
+	#address{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	nav ul.horizontal-list {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
 	}
 }

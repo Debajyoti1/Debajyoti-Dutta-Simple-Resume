@@ -14,6 +14,7 @@
 
 <body>
 	<header id="body-header">
+		<div class="hamburger" onclick="toggleMenu()">☰</div>
 		<nav>
 			<ul class="horizontal-list text-center">
 				<li><a href="#">Home</a></li>
@@ -25,6 +26,18 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
+		<div class="mobile-menu" id="mobileMenu">
+			<span class="close" onclick="toggleMenu()">×</span>
+			<ul>
+				<li><a href="#" onclick="toggleMenu()">Home</a></li>
+				<li><a href="#about" onclick="toggleMenu()">About</a></li>
+				<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#education" onclick="toggleMenu()">Education</a></li>
+				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+			</ul>
+		</div>
 		<div id="name-social-container">
 			<div class="text-center">
 				<h1 id="my-name">Debajyoti Dutta</h1>
@@ -205,12 +218,16 @@
 						October 2023 - Current
 					</div>
 					<div class="work-info">
-						Developed multiple user stories, addressing diverse project requirements and ensuring comprehensive coverage of client needs.
-						Ensured application maintainability by following coding standards for security, implementing TDD, adding comprehensive comments 
+						Developed multiple user stories, addressing diverse project requirements and ensuring
+						comprehensive coverage of client needs.
+						Ensured application maintainability by following coding standards for security, implementing
+						TDD, adding comprehensive comments
 						for clarity, and integrating effective logging mechanisms for error tracking and debugging.
-						Contributed throughout the software development lifecycle (SDLC), from planning to deployment, while continuously learning.
-						Managed and supervised a small team, ensuring tasks were completed effectively and providing guidance when needed.
-						
+						Contributed throughout the software development lifecycle (SDLC), from planning to deployment,
+						while continuously learning.
+						Managed and supervised a small team, ensuring tasks were completed effectively and providing
+						guidance when needed.
+
 					</div>
 				</div>
 			</div>
@@ -324,7 +341,7 @@
 				<div id="msg-box">
 					<input type="text" id="formname" class="contact-input" name="name" placeholder="Your Name">
 					<input type="email" id="formemail" class="contact-input" name="email" placeholder="Your Email">
-					<textarea id="msg"  class="contact-input" name="msg" placeholder="Message"></textarea>
+					<textarea id="msg" class="contact-input" name="msg" placeholder="Message"></textarea>
 					<button id="contact-submit" onclick="sendMsg()" type="submit">SEND MESSAGE</button>
 				</div>
 				<div id="address">
