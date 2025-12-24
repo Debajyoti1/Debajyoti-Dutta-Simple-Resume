@@ -150,8 +150,8 @@ nav {
 }
 
 #my-image {
-  width: 256px;
-  height: 240px;
+  width: 295px;
+  height: 281px;
   margin: auto;
   margin-top: -140px;
 }
@@ -448,12 +448,13 @@ section h2 span img {
   border-radius: 5px;
   display: block;
   margin: 10px auto;
-  padding: 10px 10px;
 }
 
 .project-item > button a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  padding: 10px;
 }
 
 .project-item > button a:hover {
