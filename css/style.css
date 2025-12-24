@@ -607,6 +607,16 @@ section h2 span img {
   background-color: #00bebe;
 }
 
+@media screen and (max-width: 768px) {
+  nav ul.horizontal-list {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 @media all and (max-width: 668px) {
   #alert-box {
     height: 41vh;
@@ -628,7 +638,7 @@ section h2 span img {
   }
 
   #my-name {
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   #my-intro {
@@ -645,7 +655,7 @@ section h2 span img {
   }
 
   .skills-display {
-    width: 60%;
+    width: 70%;
   }
 
   .skill-progress {
@@ -724,15 +734,5 @@ section h2 span img {
   }
   #social-icons {
     margin: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  nav ul.horizontal-list {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
   }
 }
