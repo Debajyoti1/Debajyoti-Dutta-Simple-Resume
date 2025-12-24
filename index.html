@@ -59,7 +59,15 @@
     />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="preload"
+      href="css/style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="css/style.css" />
+    </noscript>
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -151,7 +159,7 @@
               "Linux",
               "DevOps",
               "Microservices",
-			  "REST API",
+              "REST API",
               "React Native"
             ],
             "hasOccupation": [
@@ -665,7 +673,9 @@
               small URL which can be used instead of the long URL.
             </p>
             <button>
-              <a href="https://github.com/Debajyoti1/url-shortner">Checkout in Github</a>
+              <a href="https://github.com/Debajyoti1/url-shortner"
+                >Checkout in Github</a
+              >
             </button>
           </div>
           <div class="project-item">
