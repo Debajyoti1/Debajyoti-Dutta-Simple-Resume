@@ -1,370 +1,772 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Debajyoti Dutta the Developer,Software Engineer, Coder, Programmer">
-	<meta name="keywords" content="DevOps,Python,Java,Engineer,Developer,HTML, CSS, JavaScript">
-	<meta name="author" content="Debajyoti Dutta">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Debajyoti Dutta</title>
-</head>
+    <title>Debajyoti Dutta | Full Stack Developer | Software Engineer</title>
 
-<body>
-	<header id="body-header">
-		<div class="hamburger" onclick="toggleMenu()">☰</div>
-		<nav>
-			<ul class="horizontal-list text-center">
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="mobile-menu" id="mobileMenu">
-			<span class="close" onclick="toggleMenu()">×</span>
-			<ul>
-				<li><a href="#" onclick="toggleMenu()">Home</a></li>
-				<li><a href="#about" onclick="toggleMenu()">About</a></li>
-				<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-				<li><a href="#education" onclick="toggleMenu()">Education</a></li>
-				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-			</ul>
-		</div>
-		<div id="name-social-container">
-			<div class="text-center">
-				<h1 id="my-name">Debajyoti Dutta</h1>
-			</div>
-			<div id="social-icons">
-				<ul class="horizontal-list text-center">
-					<li><a href="https://www.facebook.com/debajyoti.dutta.1/">
-							<img src="images/facebook-round-line-icon.svg">
-						</a></li>
-					<li><a href="https://github.com/Debajyoti1">
-							<img src="images/github-icon.svg">
-						</a></li>
-					<li><a href="https://www.linkedin.com/in/debajyoti-dutta/">
-							<img src="images/linkedin-round-line-icon.svg">
-						</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
-	<main>
-		<section id="about">
-			<div id="my-image">
-				<img src="images/debajyoti-dutta.jpg">
-			</div>
-			<div id="my-intro">
-				<p>
+    <meta
+      name="description"
+      content="Debajyoti Dutta is a Full Stack Developer skilled in MERN stack, Python, Javascript, React, Node JS, Express JS, Docker, and DevOps."
+    />
 
-					I discovered my love for programming when I was young, and ever since then, I've dedicated countless
-					hours to honing my skills. Over the years, I've had the opportunity to work with various programming
-					languages and technologies, gaining valuable experience in solving problems through programming.
-					Programming brings me joy, and I find great satisfaction in exploring new technologies. I'm
-					constantly seeking out learning opportunities and challenges to further improve my abilities.
-					Participating in coding contests has been a way for me to test myself and enhance my skills.
-					Additionally, I'm always on the lookout for emerging technologies and best practices to stay up to
-					date with the latest advancements.
-				</p>
-			</div>
-		</section>
-		<section id="skills">
-			<h1 class="section-heading mb-75px">
-				<span>
-					<img id="skill-logo" src="images/skills-icon.svg">
-				</span>
-				<span>
-					SKILLS
-				</span>
-			</h1>
-			<div class="skills-display">
-				<div class="skill-progress">
-					<div class="ninety-percent bg-blue">
-						<div class="skill-name">
-							<span>Python</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="seventy-percent bg-red">
-						<div class="skill-name">
-							<span>Java</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="seventy-percent bg-yellow">
-						<div class="skill-name">
-							<span>React</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="seventy-percent bg-green">
-						<div class="skill-name">
-							<span>Docker</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="eighty-percent bg-aqua">
-						<div class="skill-name">
-							<span>SQL</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="eighty-percent bg-brown">
-						<div class="skill-name">
-							<span>Linux</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="eighty-percent bg-blue">
-						<div class="skill-name">
-							<span>NodeJS</span>
-						</div>
-					</div>
-				</div>
-				<div class="skill-progress">
-					<div class="eighty-percent bg-yellow">
-						<div class="skill-name">
-							<span>ExpressJS</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="experience">
-			<h1 class="section-heading mb-75px">
-				<span>
-					<img id="exp-logo" src="images/user-with-laptop-icon.svg">
-				</span>
-				<span>
-					WORK EXPERIENCE
-				</span>
-			</h1>
-			<div class="timeline">
-				<div class="timeline-divider">
-					<div class="timeline-traveler">
-						<img src="images/aeroplane-icon.svg">
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Software Engineer Intern
-					</div>
-					<div class="organization">
-						Cognizant
-					</div>
-					<div class="duration">
-						February 2021 - August 2021
-					</div>
-					<div class="work-info">
-						Successfully completed comprehensive training in Java Full Stack, DBMS, HTML, CSS, Angular, and
-						Micro Services, applying the acquired knowledge and actively participating in the end-to-end
-						development of a project from its initial stages to final delivery.
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Programmer Analyst Trainee
-					</div>
-					<div class="organization">
-						Cognizant
-					</div>
-					<div class="duration">
-						September 2021 - September 2022
-					</div>
-					<div class="work-info">
-						Assigned to a team responsible for analyzing, debugging, and fixing bugs in a production web
-						application, while also deploying necessary changes to ensure seamless operation
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Jr. Software Engineer
-					</div>
-					<div class="organization">
-						Cognizant
-					</div>
-					<div class="duration">
-						September 2022 - Current
-					</div>
-					<div class="work-info">
-						Actively participated in various stages of the software development lifecycle, contributing to
-						the success of projects. Documented software specifications, debugged major bugs, and suggested
-						potential code changes for improved functionality and quality. Proactively identified and
-						alerted on potential code design issues to ensure efficient and effective development processes.
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Associate Software Engineer
-					</div>
-					<div class="organization">
-						Cognizant
-					</div>
-					<div class="duration">
-						October 2023 - Current
-					</div>
-					<div class="work-info">
-						Developed multiple user stories, addressing diverse project requirements and ensuring
-						comprehensive coverage of client needs.
-						Ensured application maintainability by following coding standards for security, implementing
-						TDD, adding comprehensive comments
-						for clarity, and integrating effective logging mechanisms for error tracking and debugging.
-						Contributed throughout the software development lifecycle (SDLC), from planning to deployment,
-						while continuously learning.
-						Managed and supervised a small team, ensuring tasks were completed effectively and providing
-						guidance when needed.
+    <meta name="author" content="Debajyoti Dutta" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="content-language" content="en-us" />
 
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="education">
-			<h1 class="section-heading mb-75px">
-				<span>
-					<img id="exp-logo" src="images/education-icon.svg">
-				</span>
-				<span>
-					EDUCATION
-				</span>
-			</h1>
-			<div class="timeline">
-				<div class="timeline-divider">
-					<div class="timeline-traveler">
-						<img src="images/car-icon.svg">
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Madhyamik (10th Equivallent)
-					</div>
-					<div class="organization">
-						Eastern Railway Higher Secondary School
-					</div>
-					<div class="duration">
-						April 2015
-					</div>
-					<div class="work-info">
-						Completed 10th Standard
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Uchha Madhyamik(12th Equivallent)
-					</div>
-					<div class="organization">
-						Dhadka N.C.L Vidyamandir
-					</div>
-					<div class="duration">
-						May 2015 - June 2017
-					</div>
-					<div class="work-info">
-						Completed 12th Standard
-					</div>
-				</div>
-				<div class="timeline-box">
-					<div class="designation">
-						Bachelor of Technology (B.TECH)
-					</div>
-					<div class="organization">
-						B.P. Poddar Institute of
-						Management & Technology,
-						Kolkata
-					</div>
-					<div class="duration">
-						August 2017 - July 2021
-					</div>
-					<div class="work-info">
-						Completed Bachelor of Technology in Computer
-						Science & Engineering
-					</div>
-				</div>
+    <link rel="canonical" href="https://debajyotidutta.com/" />
+    <link rel="icon" href="/images/favicon.ico" sizes="any" />
 
-			</div>
-		</section>
-		<section id="projects">
-			<h1 class="section-heading mb-75px">
-				<span>
-					<img id="skill-logo" src="images/architect-icon.svg">
-				</span>
-				<span>
-					PROJECTS
-				</span>
-			</h1>
-			<div class="project-display">
-				<div class="project-item">
-					<h3>URL Shortner</h3>
-					<p>A simple URL sortner built using Python-Flask,SQLite and deployed on Heroku. Provided a long URL,
-						it shortens that and provides a small URL which can be used instead of the long URL. </p>
-					<button><a href="https://github.com/Debajyoti1/url-shortner">Read more</a></button>
-				</div>
-				<div class="project-item">
-					<h3>Port Scanner</h3>
-					<p>A simple Yet Fast Port Scanner Written in Rust. The application takes a particular website or IP
-						address and checks for open TCP ports, was developed exclusively for editorial use. The user is
-						prompted to provide a URL or IP address.
-					</p>
-					<button><a href="https://github.com/Debajyoti1/PortScanner-Rust">Read more</a></button>
-				</div>
-				<div class="project-item">
-					<h3>Library Management System</h3>
-					<p> The application was developed using Windows Forms and MySQL. The GUI includes features for both
-						users and administrators. Users can search for books, view details. </p>
-					<button><a href="https://github.com/Debajyoti1/Library-Management-System-Windows-Forms">Read
-							more</a></button>
-				</div>
-			</div>
-		</section>
-		<section id="contact">
-			<h1 class="section-heading mb-75px">
-				<span>
-					<img id="contact-logo" id="contact" src="images/contact-book-line-icon.svg">
-				</span>
-				<span id="contact-span">
-					CONTACT
-				</span>
-			</h1>
-			<div id="contact-desc">
-				<div id="msg-box">
-					<input type="text" id="formname" class="contact-input" name="name" placeholder="Your Name">
-					<input type="email" id="formemail" class="contact-input" name="email" placeholder="Your Email">
-					<textarea id="msg" class="contact-input" name="msg" placeholder="Message"></textarea>
-					<button id="contact-submit" onclick="sendMsg()" type="submit">SEND MESSAGE</button>
-				</div>
-				<div id="address">
-					<div>
-						<h3 class="mb-17px">Get in touch</h3>
-						<p class="add-desc mb-17px"> As a software developer, I'm passionate about creating innovative
-							and efficient solutions that help businesses thrive. If you're interested in discussing a
-							potential project or just want to connect, feel free to get in touch with me. </p>
-					</div>
-					<div>
-						<h3 class="mb-17px">My Address</h3>
-						<p><img class="location-icon" src="images/location-icon.svg"> Asansol, WB, India</p>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
-	<div id="alert-box" class="alert">
-		<div id="text-head" class="bg-green">Success</div>
-		<div id="text-body">Your message is sent! I will get back to you shortly</div>
-		<button id="ok-alert" onclick="hideAlert()">ok</button>
-	</div>
-	<script src="js/script.js"></script>
-</body>
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:title"
+      content="Debajyoti Dutta | Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="Software Engineer & Full Stack Developer specializing in MERN Stack, Python, Javascript, NodeJS, Express, React, and DevOps."
+    />
+    <meta property="og:url" content="https://debajyotidutta.com/" />
+    <meta
+      property="og:image"
+      content="https://debajyotidutta.com/images/debajyoti-dutta.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Debajyoti Dutta - Full Stack Developer"
+    />
+    <meta property="og:site_name" content="Debajyoti Dutta Portfolio" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Debajyoti Dutta | Full Stack Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore projects, experience, and skills of Debajyoti Dutta."
+    />
+    <meta
+      name="twitter:image"
+      content="https://debajyotidutta.com/images/debajyoti-dutta.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Debajyoti Dutta Portfolio Preview"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            /* =======================
+         WEBSITE
+      ======================= */
+            {
+              "@type": "WebSite",
+              "@id": "https://debajyotidutta.com/#website",
+              "url": "https://debajyotidutta.com/",
+              "name": "Debajyoti Dutta Portfolio",
+              "description": "Official portfolio of Debajyoti Dutta, Software Engineer and Full Stack Developer.",
+              "publisher": {
+                "@id": "https://debajyotidutta.com/#person"
+              },
+              "inLanguage": "en-US"
+            },
+
+            /* =======================
+         PROFILE PAGE
+      ======================= */
+            {
+              "@type": "ProfilePage",
+              "@id": "https://debajyotidutta.com/#profilepage",
+              "url": "https://debajyotidutta.com/",
+              "name": "Debajyoti Dutta - Full Stack Developer Profile",
+              "description": "Professional profile of Debajyoti Dutta, Full Stack Developer.",
+              "isPartOf": {
+                "@id": "https://debajyotidutta.com/#website"
+              },
+              "mainEntity": {
+                "@id": "https://debajyotidutta.com/#person"
+              },
+              "about": {
+                "@id": "https://debajyotidutta.com/#person"
+              },
+              "inLanguage": "en-US"
+            },
+
+            /* =======================
+         PERSON WITH TIMELINE ROLES
+      ======================= */
+            {
+              "@type": "Person",
+              "@id": "https://debajyotidutta.com/#person",
+              "name": "Debajyoti Dutta",
+              "url": "https://debajyotidutta.com/",
+              "image": "https://debajyotidutta.com/images/debajyoti-dutta.jpg",
+              "jobTitle": "Full Stack Developer",
+              "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "B.P. Poddar Institute of Management & Technology"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Pune",
+                "addressRegion": "Maharashtra",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "personal",
+                "email": "mailto:debajyotidutta@gmail.com",
+                "telephone": "+91-8617603395",
+                "availableLanguage": ["English","Hindi","Bengali"]
+              },
+              "knowsAbout": [
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Node.js",
+                "Express.js",
+       "MongoDB",
+       "PostgreSQL",
+                "Google Cloud Platform",
+       "Azure",
+                "Python",
+       "Redis",
+       "Kafka",
+       "RabbitMQ",
+       "Prometheus",
+       "Grafana",
+                "Java",
+                "Firebase",
+                "SQL",
+                "Linux",
+                "DevOps",
+                "Microservices"
+                "React Native",
+              ],
+              "hasOccupation": [
+                {
+                  "@type": "Occupation",
+                  "name": "Full Stack Developer",
+                  "startDate": "2024-08",
+                  "occupationLocation": {
+                    "@type": "City",
+                    "name": "Pune"
+                  },
+                  "skills": [
+                    "React Web Development",
+                    "React Native Development",
+                    "Backend Development",
+        "Node.js Express.js",
+                    "REST API Design",
+                    "Cloud Deployment",
+                    "Bug Fixing & Debugging",
+                    "Jira Documentation",
+                    "Agile & SDLC"
+                  ],
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-djinteractive"
+                  }
+                }
+              ],
+              "hasRole": [
+                {
+                  "@type": "Role",
+                  "roleName": "Full Stack Developer",
+                  "startDate": "2024-08",
+                  "description": "Developing end-to-end features across React Web and React Native apps, with a Node.js & Express backend, leveraging Firebase and Google Cloud Platform. Fixing major bugs and tracking changes in Jira. Contributing throughout the full SDLC.",
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-djinteractive"
+                  }
+                },
+                {
+                  "@type": "Role",
+                  "roleName": "Associate Software Engineer",
+                  "startDate": "2023-10",
+                  "endDate": "2024-07",
+                  "description": "Developed multiple user stories and end-to-end features. Maintained application security and quality, followed coding standards, integrated logging and debugging, and supervised a small team at Cognizant.",
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-cognizant"
+                  }
+                },
+                {
+                  "@type": "Role",
+                  "roleName": "Jr. Software Engineer",
+                  "startDate": "2022-09",
+                  "endDate": "2023-09",
+                  "description": "Participated in all stages of SDLC, debugged major bugs, documented software specifications, and suggested improvements.",
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-cognizant"
+                  }
+                },
+                {
+                  "@type": "Role",
+                  "roleName": "Programmer Analyst Trainee",
+                  "startDate": "2021-09",
+                  "endDate": "2022-09",
+                  "description": "Analyzed, debugged, and fixed bugs in production web applications, deployed necessary changes, and ensured seamless operation.",
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-cognizant"
+                  }
+                },
+                {
+                  "@type": "Role",
+                  "roleName": "Software Engineer Intern",
+                  "startDate": "2021-02",
+                  "endDate": "2021-08",
+                  "description": "Completed comprehensive training in Java Full Stack, DBMS, HTML, CSS, Angular, and Microservices. Participated in end-to-end project development.",
+                  "worksFor": {
+                    "@id": "https://debajyotidutta.com/#organization-cognizant"
+                  }
+                }
+              ],
+              "sameAs": [
+                "https://github.com/Debajyoti1",
+                "https://www.linkedin.com/in/debajyoti-dutta/",
+                "https://www.facebook.com/debajyoti.dutta.1/"
+              ]
+            },
+
+            /* =======================
+         CURRENT EMPLOYER
+      ======================= */
+            {
+              "@type": "Organization",
+              "@id": "https://debajyotidutta.com/#organization-djinteractive",
+              "name": "DJ Interactive Labs Pvt. Ltd.",
+              "url": "https://www.djinteractive.in/",
+              "address": {
+                "@type": "PostalAddress",
+       "postalCode": "411045",
+       "streetAddress": "Balewadi Highstreet, Baner, Pune, Maharashtra 411045",
+                "addressLocality": "Pune",
+                "addressRegion": "Maharashtra",
+                "addressCountry": "IN"
+              },
+              "sameAs": ["https://www.linkedin.com/company/digital-jalebi/"]
+            },
+
+            /* =======================
+         PAST EMPLOYER
+      ======================= */
+            {
+              "@type": "Organization",
+              "@id": "https://debajyotidutta.com/#organization-cognizant",
+              "name": "Cognizant",
+              "url": "https://www.cognizant.com/",
+              "logo": "https://cognizant.scene7.com/is/content/cognizant/COG-Logo-2022-1?fmt=png-alpha",
+              "sameAs": [
+                "https://www.linkedin.com/company/cognizant/",
+                "https://twitter.com/Cognizant",
+                "https://en.wikipedia.org/wiki/Cognizant"
+              ],
+              "location": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "IN"
+                }
+              }
+            },
+
+            /* =======================
+         PROJECTS
+      ======================= */
+            {
+              "@type": "ItemList",
+              "@id": "https://debajyotidutta.com/#projects",
+              "name": "Projects by Debajyoti Dutta",
+              "itemListElement": [
+                {
+                  "@type": "SoftwareSourceCode",
+                  "position": 1,
+                  "name": "URL Shortener",
+                  "programmingLanguage": ["Python", "SQLite"],
+                  "codeRepository": "https://github.com/Debajyoti1/url-shortner",
+                  "description": "A URL shortener built using Python Flask and SQLite."
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "position": 2,
+                  "name": "Port Scanner",
+                  "programmingLanguage": ["Rust"],
+                  "codeRepository": "https://github.com/Debajyoti1/PortScanner-Rust",
+                  "description": "High-performance TCP port scanner written in Rust."
+                },
+                {
+                  "@type": "SoftwareSourceCode",
+                  "position": 3,
+                  "name": "Library Management System",
+                  "programmingLanguage": ["C#", "MySQL"],
+                  "codeRepository": "https://github.com/Debajyoti1/Library-Management-System-Windows-Forms",
+                  "description": "Library management system built using Windows Forms and MySQL."
+                }
+              ]
+            }
+          ]
+        }
+    </script>
+  </head>
+
+  <body>
+    <header id="body-header">
+      <div class="hamburger" onclick="toggleMenu()" title="Toggle Menu">☰</div>
+      <nav>
+        <ul class="horizontal-list text-center">
+          <li><a href="#" title="Go to Home section">Home</a></li>
+          <li><a href="#about" title="About Debajyoti Dutta">About</a></li>
+          <li>
+            <a href="#skills" title="Skills of Debajyoti Dutta">Skills</a>
+          </li>
+          <li><a href="#experience" title="Work Experience">Experience</a></li>
+          <li>
+            <a href="#education" title="Education background">Education</a>
+          </li>
+          <li><a href="#projects" title="Projects portfolio">Projects</a></li>
+          <li>
+            <a href="#contact" title="Contact Debajyoti Dutta">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu" id="mobileMenu">
+        <span class="close" onclick="toggleMenu()" title="Close Menu">×</span>
+        <ul>
+          <li>
+            <a href="#" onclick="toggleMenu()" title="Go to Home section"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              onclick="toggleMenu()"
+              title="About Debajyoti Dutta"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              onclick="toggleMenu()"
+              title="Skills of Debajyoti Dutta"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()" title="Work Experience"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a
+              href="#education"
+              onclick="toggleMenu()"
+              title="Education background"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              onclick="toggleMenu()"
+              title="Projects portfolio"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              onclick="toggleMenu()"
+              title="Contact Debajyoti Dutta"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="name-social-container">
+        <div class="text-center">
+          <h1 id="my-name">Debajyoti Dutta – Full Stack Developer</h1>
+        </div>
+        <div id="social-icons">
+          <ul class="horizontal-list text-center">
+            <li>
+              <a
+                href="https://www.facebook.com/debajyoti.dutta.1/"
+                title="Facebook Profile"
+              >
+                <img
+                  src="images/facebook-round-line-icon.svg"
+                  alt="Facebook Icon of Debajyoti Dutta"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Debajyoti1" title="GitHub Profile">
+                <img
+                  src="images/github-icon.svg"
+                  alt="GitHub Icon of Debajyoti Dutta"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/debajyoti-dutta/"
+                title="LinkedIn Profile"
+              >
+                <img
+                  src="images/linkedin-round-line-icon.svg"
+                  alt="LinkedIn Icon of Debajyoti Dutta"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about">
+        <div id="my-image">
+          <img
+            src="images/debajyoti-dutta.jpg"
+            alt="Debajyoti Dutta – Full Stack Developer"
+          />
+        </div>
+        <div id="my-intro">
+          <p>
+            I am <strong>Debajyoti Dutta</strong>, a passionate
+            <strong>Full Stack Developer</strong> and
+            <strong>Software Engineer</strong>. I specialize in
+            <strong>React Web</strong>, <strong>React Native</strong>,
+            <strong>Node.js</strong>, <strong>Express.js</strong>,
+            <strong>Python</strong>, <strong>Java</strong>,
+            <strong>SQL</strong>, and cloud technologies like
+            <strong>Firebase</strong> and
+            <strong>Google Cloud Platform</strong>. I enjoy building scalable
+            applications, solving complex programming problems, and continuously
+            learning emerging technologies to improve my skills.
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2 class="section-heading mb-75px">
+          <span>
+            <img
+              id="skill-logo"
+              src="images/skills-icon.svg"
+              alt="Skills Icon"
+            />
+          </span>
+          <span>SKILLS</span>
+        </h2>
+        <div class="skills-display">
+          <div class="skill-progress">
+            <div class="ninety-percent bg-blue">
+              <div class="skill-name"><span>Javascript</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-percent bg-red">
+              <div class="skill-name"><span>NodeJs</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-percent bg-yellow">
+              <div class="skill-name"><span>Express</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-percent bg-green">
+              <div class="skill-name"><span>React</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent bg-aqua">
+              <div class="skill-name"><span>MongoDB</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-percent bg-yellow">
+              <div class="skill-name"><span>PostgreSQL</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-percent bg-green">
+              <div class="skill-name"><span>React Native</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent bg-brown">
+              <div class="skill-name"><span>Linux</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent bg-blue">
+              <div class="skill-name"><span>Grafana</span></div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent bg-yellow">
+              <div class="skill-name"><span>Docker</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <h2 class="section-heading mb-75px">
+          <span>
+            <img
+              id="exp-logo"
+              src="images/user-with-laptop-icon.svg"
+              alt="Work Experience Icon"
+            />
+          </span>
+          <span> WORK EXPERIENCE </span>
+        </h2>
+        <div class="timeline">
+          <div class="timeline-divider">
+            <div class="timeline-traveler">
+              <img
+                src="images/aeroplane-icon.svg"
+                alt="Timeline Traveler Icon"
+              />
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Software Engineer Intern</div>
+            <div class="organization">Cognizant</div>
+            <div class="duration">February 2021 - August 2021</div>
+            <p class="work-info">
+              Completed training in <strong>Java Full Stack</strong>,
+              <strong>DBMS</strong>, <strong>HTML</strong>,
+              <strong>CSS</strong>, <strong>Angular</strong>, and
+              <strong>Microservices</strong>. Participated in end-to-end project
+              development.
+            </p>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Programmer Analyst Trainee</div>
+            <div class="organization">Cognizant</div>
+            <div class="duration">September 2021 - September 2022</div>
+            <p class="work-info">
+              Analyzed, debugged, and fixed production web applications and
+              deployed changes to ensure smooth operation.
+            </p>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Jr. Software Engineer</div>
+            <div class="organization">Cognizant</div>
+            <div class="duration">September 2022 - Current</div>
+            <p class="work-info">
+              Participated in SDLC, debugged major bugs, documented software
+              specifications, and suggested improvements for application
+              quality.
+            </p>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Associate Software Engineer</div>
+            <div class="organization">Cognizant</div>
+            <div class="duration">October 2023 - Current</div>
+            <p class="work-info">
+              Developed features, maintained application security, implemented
+              TDD, added detailed comments, and supervised a small team.
+              Contributed throughout the full SDLC.
+            </p>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Full Stack Developer</div>
+            <div class="organization">DJ Interactive Labs Pvt. Ltd., Pune</div>
+            <div class="duration">August 2024 - Present</div>
+            <p class="work-info">
+              Documented software specifications and developed end-to-end
+              features across <strong>React Web</strong> and
+              <strong>React Native</strong> apps, with a
+              <strong>Node.js</strong> and <strong>Express</strong> backend.
+              Leveraged <strong>Firebase</strong> and
+              <strong>Google Cloud Platform</strong>. Responsible for bug fixes
+              and tracking changes in <strong>Jira</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2 class="section-heading mb-75px">
+          <span>
+            <img
+              id="exp-logo"
+              src="images/education-icon.svg"
+              alt="Education Icon"
+            />
+          </span>
+          <span> EDUCATION </span>
+        </h2>
+        <div class="timeline">
+          <div class="timeline-divider">
+            <div class="timeline-traveler">
+              <img src="images/car-icon.svg" alt="Time traveler icon" />
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Madhyamik (10th Equivallent)</div>
+            <div class="organization">
+              Eastern Railway Higher Secondary School
+            </div>
+            <div class="duration">April 2015</div>
+            <div class="work-info">Completed 10th Standard</div>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Uchha Madhyamik(12th Equivallent)</div>
+            <div class="organization">Dhadka N.C.L Vidyamandir</div>
+            <div class="duration">May 2015 - June 2017</div>
+            <div class="work-info">Completed 12th Standard</div>
+          </div>
+          <div class="timeline-box">
+            <div class="designation">Bachelor of Technology (B.TECH)</div>
+            <div class="organization">
+              B.P. Poddar Institute of Management & Technology, Kolkata
+            </div>
+            <div class="duration">August 2017 - July 2021</div>
+            <div class="work-info">
+              Completed Bachelor of Technology in Computer Science & Engineering
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="section-heading mb-75px">
+          <span>
+            <img
+              id="skill-logo"
+              src="images/architect-icon.svg"
+              alt="Projects Icon"
+            />
+          </span>
+          <span> PROJECTS </span>
+        </h2>
+        <div class="project-display">
+          <div class="project-item">
+            <h3>URL Shortner</h3>
+            <p>
+              A simple URL sortner built using Python-Flask,SQLite and deployed
+              on Heroku. Provided a long URL, it shortens that and provides a
+              small URL which can be used instead of the long URL.
+            </p>
+            <button>
+              <a href="https://github.com/Debajyoti1/url-shortner">Read more</a>
+            </button>
+          </div>
+          <div class="project-item">
+            <h3>Port Scanner</h3>
+            <p>
+              A simple Yet Fast Port Scanner Written in Rust. The application
+              takes a particular website or IP address and checks for open TCP
+              ports, was developed exclusively for editorial use. The user is
+              prompted to provide a URL or IP address.
+            </p>
+            <button>
+              <a href="https://github.com/Debajyoti1/PortScanner-Rust"
+                >Read more</a
+              >
+            </button>
+          </div>
+          <div class="project-item">
+            <h3>Library Management System</h3>
+            <p>
+              The application was developed using Windows Forms and MySQL. The
+              GUI includes features for both users and administrators. Users can
+              search for books, view details.
+            </p>
+            <button>
+              <a
+                href="https://github.com/Debajyoti1/Library-Management-System-Windows-Forms"
+                >Read more</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="section-heading mb-75px">
+          <span>
+            <img
+              id="contact-logo"
+              id="contact"
+              src="images/contact-book-line-icon.svg"
+              alt="Contact Icon"
+            />
+          </span>
+          <span id="contact-span"> CONTACT </span>
+        </h2>
+        <div id="contact-desc">
+          <div id="msg-box">
+            <input
+              type="text"
+              id="formname"
+              class="contact-input"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              id="formemail"
+              class="contact-input"
+              name="email"
+              placeholder="Your Email"
+            />
+            <textarea
+              id="msg"
+              class="contact-input"
+              name="msg"
+              placeholder="Message"
+            ></textarea>
+            <button id="contact-submit" onclick="sendMsg()" type="submit">
+              SEND MESSAGE
+            </button>
+          </div>
+          <div id="address">
+            <div>
+              <h3 class="mb-17px">Get in touch</h3>
+              <p class="add-desc mb-17px">
+                As a software developer, I'm passionate about creating
+                innovative and efficient solutions that help businesses thrive.
+                If you're interested in discussing a potential project or just
+                want to connect, feel free to get in touch with me.
+              </p>
+            </div>
+            <div>
+              <h3 class="mb-17px">My Address</h3>
+              <p>
+                <img
+                  class="location-icon"
+                  src="images/location-icon.svg"
+                  alt="Location Icon"
+                />
+                Asansol, WB, India
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="alert-box" class="alert">
+      <div id="text-head" class="bg-green">Success</div>
+      <div id="text-body">
+        Your message is sent! I will get back to you shortly
+      </div>
+      <button id="ok-alert" onclick="hideAlert()">ok</button>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>

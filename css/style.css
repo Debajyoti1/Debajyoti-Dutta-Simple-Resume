@@ -201,7 +201,7 @@ section {
 	margin-bottom: 75px;
 }
 
-section h1 span img {
+section h2 span img {
 	height: 60px;
 	width: 60px;
 	/*	border-radius: 50%;*/
@@ -350,9 +350,9 @@ section h1 span img {
 }
 
 .timeline-divider {
-	top: 10%;
+	top: 1%;
 	position: absolute;
-	height: 75%;
+	height: 98%;
 	width: 0;
 	border: 3px dashed #c3c0c085;
 	left: 50%;
