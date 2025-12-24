@@ -722,6 +722,9 @@ section h2 span img {
   #address {
     width: 100%;
   }
+  #social-icons {
+    margin: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
