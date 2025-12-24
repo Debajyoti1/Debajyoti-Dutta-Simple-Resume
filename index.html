@@ -63,257 +63,258 @@
 
     <!-- Structured Data -->
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@graph": [
-            /* =======================
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          /* =======================
          WEBSITE
       ======================= */
-            {
-              "@type": "WebSite",
-              "@id": "https://debajyotidutta.com/#website",
-              "url": "https://debajyotidutta.com/",
-              "name": "Debajyoti Dutta Portfolio",
-              "description": "Official portfolio of Debajyoti Dutta, Software Engineer and Full Stack Developer.",
-              "publisher": {
-                "@id": "https://debajyotidutta.com/#person"
-              },
-              "inLanguage": "en-US"
+          {
+            "@type": "WebSite",
+            "@id": "https://debajyotidutta.com/#website",
+            "url": "https://debajyotidutta.com/",
+            "name": "Debajyoti Dutta Portfolio",
+            "description": "Official portfolio of Debajyoti Dutta, Software Engineer and Full Stack Developer.",
+            "publisher": {
+              "@id": "https://debajyotidutta.com/#person"
             },
+            "inLanguage": "en-US"
+          },
 
-            /* =======================
+          /* =======================
          PROFILE PAGE
       ======================= */
-            {
-              "@type": "ProfilePage",
-              "@id": "https://debajyotidutta.com/#profilepage",
-              "url": "https://debajyotidutta.com/",
-              "name": "Debajyoti Dutta - Full Stack Developer Profile",
-              "description": "Professional profile of Debajyoti Dutta, Full Stack Developer.",
-              "isPartOf": {
-                "@id": "https://debajyotidutta.com/#website"
-              },
-              "mainEntity": {
-                "@id": "https://debajyotidutta.com/#person"
-              },
-              "about": {
-                "@id": "https://debajyotidutta.com/#person"
-              },
-              "inLanguage": "en-US"
+          {
+            "@type": "ProfilePage",
+            "@id": "https://debajyotidutta.com/#profilepage",
+            "url": "https://debajyotidutta.com/",
+            "name": "Debajyoti Dutta - Full Stack Developer Profile",
+            "description": "Professional profile of Debajyoti Dutta, Full Stack Developer.",
+            "isPartOf": {
+              "@id": "https://debajyotidutta.com/#website"
             },
+            "mainEntity": {
+              "@id": "https://debajyotidutta.com/#person"
+            },
+            "about": {
+              "@id": "https://debajyotidutta.com/#person"
+            },
+            "inLanguage": "en-US"
+          },
 
-            /* =======================
+          /* =======================
          PERSON WITH TIMELINE ROLES
       ======================= */
-            {
-              "@type": "Person",
-              "@id": "https://debajyotidutta.com/#person",
-              "name": "Debajyoti Dutta",
-              "url": "https://debajyotidutta.com/",
-              "image": "https://debajyotidutta.com/images/debajyoti-dutta.jpg",
-              "jobTitle": "Full Stack Developer",
-              "alumniOf": {
-                "@type": "CollegeOrUniversity",
-                "name": "B.P. Poddar Institute of Management & Technology"
-              },
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Pune",
-                "addressRegion": "Maharashtra",
-                "addressCountry": "IN"
-              },
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "personal",
-                "email": "mailto:debajyotidutta@gmail.com",
-                "telephone": "+91-8617603395",
-                "availableLanguage": ["English","Hindi","Bengali"]
-              },
-              "knowsAbout": [
-                "JavaScript",
-                "TypeScript",
-                "React",
-                "Node.js",
-                "Express.js",
-       "MongoDB",
-       "PostgreSQL",
-                "Google Cloud Platform",
-       "Azure",
-                "Python",
-       "Redis",
-       "Kafka",
-       "RabbitMQ",
-       "Prometheus",
-       "Grafana",
-                "Java",
-                "Firebase",
-                "SQL",
-                "Linux",
-                "DevOps",
-                "Microservices"
-                "React Native",
-              ],
-              "hasOccupation": [
-                {
-                  "@type": "Occupation",
-                  "name": "Full Stack Developer",
-                  "startDate": "2024-08",
-                  "occupationLocation": {
-                    "@type": "City",
-                    "name": "Pune"
-                  },
-                  "skills": [
-                    "React Web Development",
-                    "React Native Development",
-                    "Backend Development",
-        "Node.js Express.js",
-                    "REST API Design",
-                    "Cloud Deployment",
-                    "Bug Fixing & Debugging",
-                    "Jira Documentation",
-                    "Agile & SDLC"
-                  ],
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-djinteractive"
-                  }
-                }
-              ],
-              "hasRole": [
-                {
-                  "@type": "Role",
-                  "roleName": "Full Stack Developer",
-                  "startDate": "2024-08",
-                  "description": "Developing end-to-end features across React Web and React Native apps, with a Node.js & Express backend, leveraging Firebase and Google Cloud Platform. Fixing major bugs and tracking changes in Jira. Contributing throughout the full SDLC.",
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-djinteractive"
-                  }
-                },
-                {
-                  "@type": "Role",
-                  "roleName": "Associate Software Engineer",
-                  "startDate": "2023-10",
-                  "endDate": "2024-07",
-                  "description": "Developed multiple user stories and end-to-end features. Maintained application security and quality, followed coding standards, integrated logging and debugging, and supervised a small team at Cognizant.",
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-cognizant"
-                  }
-                },
-                {
-                  "@type": "Role",
-                  "roleName": "Jr. Software Engineer",
-                  "startDate": "2022-09",
-                  "endDate": "2023-09",
-                  "description": "Participated in all stages of SDLC, debugged major bugs, documented software specifications, and suggested improvements.",
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-cognizant"
-                  }
-                },
-                {
-                  "@type": "Role",
-                  "roleName": "Programmer Analyst Trainee",
-                  "startDate": "2021-09",
-                  "endDate": "2022-09",
-                  "description": "Analyzed, debugged, and fixed bugs in production web applications, deployed necessary changes, and ensured seamless operation.",
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-cognizant"
-                  }
-                },
-                {
-                  "@type": "Role",
-                  "roleName": "Software Engineer Intern",
-                  "startDate": "2021-02",
-                  "endDate": "2021-08",
-                  "description": "Completed comprehensive training in Java Full Stack, DBMS, HTML, CSS, Angular, and Microservices. Participated in end-to-end project development.",
-                  "worksFor": {
-                    "@id": "https://debajyotidutta.com/#organization-cognizant"
-                  }
-                }
-              ],
-              "sameAs": [
-                "https://github.com/Debajyoti1",
-                "https://www.linkedin.com/in/debajyoti-dutta/",
-                "https://www.facebook.com/debajyoti.dutta.1/"
-              ]
+          {
+            "@type": "Person",
+            "@id": "https://debajyotidutta.com/#person",
+            "name": "Debajyoti Dutta",
+            "url": "https://debajyotidutta.com/",
+            "image": "https://debajyotidutta.com/images/debajyoti-dutta.jpg",
+            "jobTitle": "Full Stack Developer",
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "B.P. Poddar Institute of Management & Technology"
             },
-
-            /* =======================
-         CURRENT EMPLOYER
-      ======================= */
-            {
-              "@type": "Organization",
-              "@id": "https://debajyotidutta.com/#organization-djinteractive",
-              "name": "DJ Interactive Labs Pvt. Ltd.",
-              "url": "https://www.djinteractive.in/",
-              "address": {
-                "@type": "PostalAddress",
-       "postalCode": "411045",
-       "streetAddress": "Balewadi Highstreet, Baner, Pune, Maharashtra 411045",
-                "addressLocality": "Pune",
-                "addressRegion": "Maharashtra",
-                "addressCountry": "IN"
-              },
-              "sameAs": ["https://www.linkedin.com/company/digital-jalebi/"]
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Pune",
+              "addressRegion": "Maharashtra",
+              "addressCountry": "IN"
             },
-
-            /* =======================
-         PAST EMPLOYER
-      ======================= */
-            {
-              "@type": "Organization",
-              "@id": "https://debajyotidutta.com/#organization-cognizant",
-              "name": "Cognizant",
-              "url": "https://www.cognizant.com/",
-              "logo": "https://cognizant.scene7.com/is/content/cognizant/COG-Logo-2022-1?fmt=png-alpha",
-              "sameAs": [
-                "https://www.linkedin.com/company/cognizant/",
-                "https://twitter.com/Cognizant",
-                "https://en.wikipedia.org/wiki/Cognizant"
-              ],
-              "location": {
-                "@type": "Place",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressCountry": "IN"
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "personal",
+              "email": "mailto:debajyotidutta@gmail.com",
+              "telephone": "+91-8617603395",
+              "availableLanguage": ["English", "Hindi", "Bengali"]
+            },
+            "knowsAbout": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "PostgreSQL",
+              "Google Cloud Platform",
+              "Azure",
+              "Python",
+              "Redis",
+              "Kafka",
+              "RabbitMQ",
+              "Prometheus",
+              "Grafana",
+              "Java",
+              "Firebase",
+              "SQL",
+              "Linux",
+              "DevOps",
+              "Microservices",
+			  "REST API",
+              "React Native"
+            ],
+            "hasOccupation": [
+              {
+                "@type": "Occupation",
+                "name": "Full Stack Developer",
+                "startDate": "2024-08",
+                "occupationLocation": {
+                  "@type": "City",
+                  "name": "Pune"
+                },
+                "skills": [
+                  "React Web Development",
+                  "React Native Development",
+                  "Backend Development",
+                  "Node.js Express.js",
+                  "REST API Design",
+                  "Cloud Deployment",
+                  "Bug Fixing & Debugging",
+                  "Jira Documentation",
+                  "Agile & SDLC"
+                ],
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-djinteractive"
                 }
               }
-            },
+            ],
+            "hasRole": [
+              {
+                "@type": "Role",
+                "roleName": "Full Stack Developer",
+                "startDate": "2024-08",
+                "description": "Developing end-to-end features across React Web and React Native apps, with a Node.js & Express backend, leveraging Firebase and Google Cloud Platform. Fixing major bugs and tracking changes in Jira. Contributing throughout the full SDLC.",
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-djinteractive"
+                }
+              },
+              {
+                "@type": "Role",
+                "roleName": "Associate Software Engineer",
+                "startDate": "2023-10",
+                "endDate": "2024-07",
+                "description": "Developed multiple user stories and end-to-end features. Maintained application security and quality, followed coding standards, integrated logging and debugging, and supervised a small team at Cognizant.",
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-cognizant"
+                }
+              },
+              {
+                "@type": "Role",
+                "roleName": "Jr. Software Engineer",
+                "startDate": "2022-09",
+                "endDate": "2023-09",
+                "description": "Participated in all stages of SDLC, debugged major bugs, documented software specifications, and suggested improvements.",
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-cognizant"
+                }
+              },
+              {
+                "@type": "Role",
+                "roleName": "Programmer Analyst Trainee",
+                "startDate": "2021-09",
+                "endDate": "2022-09",
+                "description": "Analyzed, debugged, and fixed bugs in production web applications, deployed necessary changes, and ensured seamless operation.",
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-cognizant"
+                }
+              },
+              {
+                "@type": "Role",
+                "roleName": "Software Engineer Intern",
+                "startDate": "2021-02",
+                "endDate": "2021-08",
+                "description": "Completed comprehensive training in Java Full Stack, DBMS, HTML, CSS, Angular, and Microservices. Participated in end-to-end project development.",
+                "worksFor": {
+                  "@id": "https://debajyotidutta.com/#organization-cognizant"
+                }
+              }
+            ],
+            "sameAs": [
+              "https://github.com/Debajyoti1",
+              "https://www.linkedin.com/in/debajyoti-dutta/",
+              "https://www.facebook.com/debajyoti.dutta.1/"
+            ]
+          },
 
-            /* =======================
+          /* =======================
+         CURRENT EMPLOYER
+      ======================= */
+          {
+            "@type": "Organization",
+            "@id": "https://debajyotidutta.com/#organization-djinteractive",
+            "name": "DJ Interactive Labs Pvt. Ltd.",
+            "url": "https://www.djinteractive.in/",
+            "address": {
+              "@type": "PostalAddress",
+              "postalCode": "411045",
+              "streetAddress": "Balewadi Highstreet, Baner, Pune, Maharashtra 411045",
+              "addressLocality": "Pune",
+              "addressRegion": "Maharashtra",
+              "addressCountry": "IN"
+            },
+            "sameAs": ["https://www.linkedin.com/company/digital-jalebi/"]
+          },
+
+          /* =======================
+         PAST EMPLOYER
+      ======================= */
+          {
+            "@type": "Organization",
+            "@id": "https://debajyotidutta.com/#organization-cognizant",
+            "name": "Cognizant",
+            "url": "https://www.cognizant.com/",
+            "logo": "https://cognizant.scene7.com/is/content/cognizant/COG-Logo-2022-1?fmt=png-alpha",
+            "sameAs": [
+              "https://www.linkedin.com/company/cognizant/",
+              "https://twitter.com/Cognizant",
+              "https://en.wikipedia.org/wiki/Cognizant"
+            ],
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+              }
+            }
+          },
+
+          /* =======================
          PROJECTS
       ======================= */
-            {
-              "@type": "ItemList",
-              "@id": "https://debajyotidutta.com/#projects",
-              "name": "Projects by Debajyoti Dutta",
-              "itemListElement": [
-                {
-                  "@type": "SoftwareSourceCode",
-                  "position": 1,
-                  "name": "URL Shortener",
-                  "programmingLanguage": ["Python", "SQLite"],
-                  "codeRepository": "https://github.com/Debajyoti1/url-shortner",
-                  "description": "A URL shortener built using Python Flask and SQLite."
-                },
-                {
-                  "@type": "SoftwareSourceCode",
-                  "position": 2,
-                  "name": "Port Scanner",
-                  "programmingLanguage": ["Rust"],
-                  "codeRepository": "https://github.com/Debajyoti1/PortScanner-Rust",
-                  "description": "High-performance TCP port scanner written in Rust."
-                },
-                {
-                  "@type": "SoftwareSourceCode",
-                  "position": 3,
-                  "name": "Library Management System",
-                  "programmingLanguage": ["C#", "MySQL"],
-                  "codeRepository": "https://github.com/Debajyoti1/Library-Management-System-Windows-Forms",
-                  "description": "Library management system built using Windows Forms and MySQL."
-                }
-              ]
-            }
-          ]
-        }
+          {
+            "@type": "ItemList",
+            "@id": "https://debajyotidutta.com/#projects",
+            "name": "Projects by Debajyoti Dutta",
+            "itemListElement": [
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 1,
+                "name": "URL Shortener",
+                "programmingLanguage": ["Python", "SQLite"],
+                "codeRepository": "https://github.com/Debajyoti1/url-shortner",
+                "description": "A URL shortener built using Python Flask and SQLite."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 2,
+                "name": "Port Scanner",
+                "programmingLanguage": ["Rust"],
+                "codeRepository": "https://github.com/Debajyoti1/PortScanner-Rust",
+                "description": "High-performance TCP port scanner written in Rust."
+              },
+              {
+                "@type": "SoftwareSourceCode",
+                "position": 3,
+                "name": "Library Management System",
+                "programmingLanguage": ["C#", "MySQL"],
+                "codeRepository": "https://github.com/Debajyoti1/Library-Management-System-Windows-Forms",
+                "description": "Library management system built using Windows Forms and MySQL."
+              }
+            ]
+          }
+        ]
+      }
     </script>
   </head>
 
