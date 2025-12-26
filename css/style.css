@@ -399,9 +399,12 @@ section h2 span img {
 }
 
 #education {
-  background-color: #d3cece40;
+  /* background-color: #d3cece40; */
 }
 
+#projects{
+  background-color: #d3cece40;
+}
 .project-display {
   min-height: 20vh;
   width: 80%;
@@ -449,7 +452,36 @@ section h2 span img {
   display: block;
   margin: 10px auto;
 }
+/* #resume-download {
+  background-color: #d3cece40;
+} */
+#resume-download-logo {
+  position: relative;
+  top: 1rem;
+}
+.download-button {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #48aaad;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
 
+#resume-text {
+  width: 70%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #6b6b6b;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#experience {
+  background-color: #d3cece40;
+}
 .project-item > button a {
   text-decoration: none;
   color: white;
@@ -640,7 +672,9 @@ section h2 span img {
   #my-name {
     font-size: 1.7em;
   }
-
+  #resume-text {
+    font-size: 1rem;
+  }
   #my-intro {
     width: 80vw;
     font-size: 1rem;
